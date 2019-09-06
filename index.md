@@ -141,10 +141,10 @@ Now that we have the content for our website, we should make it more visually pl
   
   ![Padding](images/Padding.PNG)
 
-6. I'm really enjoying our website so far, but I think it needs more color! What if we made the background the same color as the title's text? To do this, we're going to need to create a *div*. This *div* will enclose all of the *body*'s content, excluding the *body* tag itself. 
+6. I'm really enjoying our website so far, but I think it needs more color! What if we made the background the same color as the title's text? To do this, we're going to need to create a *div* and a unique *ID*. This *div* will enclose all of the *body*'s content, excluding the *body* tag itself. 
   ```html
     <body>
-      <div><h1>Title</h1>
+      <div id=content><h1>Title</h1>
 
       <h2>Table of Contents</h2>
 
@@ -163,6 +163,14 @@ Now that we have the content for our website, we should make it more visually pl
       </div>
     </body>
   ```
+7. Go back in to the *style* tag and add the *ID*. Remember, we have to use *#* to denote an *ID*. Here we will add a background color. If you wish, add a little padding to the bottom as well for aesthetic purposes.
+  ```html
+    #content {
+      background-color:rgb(52, 234, 247);
+      padding-bottom: 50px;  
+    }
+  ```
+![Background Color Change](images/Background.PNG)
 
 ## Conclusion
 
