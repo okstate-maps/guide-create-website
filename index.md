@@ -5,7 +5,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 
 ## Table of Contents
 - Introduction 
-- *[delicious content]*
+- *Creating a website with HTML and CSS*
 - - sub delicious content
 - - more sub delicious
 - Conclusion
@@ -15,7 +15,12 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 
 ## *[delicious content]*
 
-#### Sub Delicious Content
+#### Getting Started
+1. To set up our website, we must first open a new code project. For this example I will be using Visual Studio Code.
+2. In the first line, be sure to specify this project is and HTML project.
+  ```html
+  <!DOCTYPE html>
+  ```
 
 #### More Sub Delicious
 
