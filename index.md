@@ -110,9 +110,9 @@ Now that we have the content for our website, we should make it more visually pl
     }
   ```
   
-  ![Title Style](images/TitleStyle.PNG)
+![Title Style](images/TitleStyle.PNG)
   
-4. While this looks cool, it's not exactly what I want. I imagined the header would be thicker. To creater a thicker header, just add some padding!
+4. While this looks cool, it's not exactly what I want. I imagined the header would be thicker. To creater a thicker header, just add some padding! That's much better!
   ```html
     h1 {
       color: rgb(52, 234, 247);
@@ -122,6 +122,8 @@ Now that we have the content for our website, we should make it more visually pl
       padding: 50px;
     }
   ```
+  ![Thick Header](images/ThickHeader.PNG)
+
 
 
 ## Conclusion
