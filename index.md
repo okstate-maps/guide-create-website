@@ -8,6 +8,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 - *Creating a Website with HTML and CSS*
 - - Getting Started
 - - Adding Content
+- - Using the Table of Contents to Navigate
 - - Adding Flare with CSS
 - Conclusion
 - Further Reading/Resources
@@ -85,6 +86,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
   
 ![Item Content](images/ItemContent.PNG)
   
+#### Using the Table of Contents to Navigate
 #### Adding Flare with CSS
 Now that we have the content for our website, we should make it more visually pleasing. To do so, we will be working within the *style* tag.
 1. Let's stylize the main header first. In the *style* tag, type *h1 {}*. Within the curly brackets is where we will add our style elements.
@@ -124,7 +126,43 @@ Now that we have the content for our website, we should make it more visually pl
   ```
   ![Thick Header](images/ThickHeader.PNG)
 
+5. Now, there's another thing I really don't like about this webpage. Notice how the content is right against the left edge of the screen? This doesn't make for the best readability. We can add padding here as well, but we have to specify that we only want padding on the *left* side of the page. Play around with it until you find the padding that's right for you and your page!
+  ```html
+    h2 {  
+      padding-left: 40px;
+    }
+    p {
+      padding-left: 40px;
+    }
+    ul {
+      padding-left: 60px;
+    }
+  ```
+  
+  ![Padding](images/Padding.PNG)
 
+6. I'm really enjoying our website so far, but I think it needs more color! What if we made the background the same color as the title's text? To do this, we're going to need to create a *div*. This *div* will enclose all of the *body*'s content, excluding the *body* tag itself. 
+  ```html
+    <body>
+      <div><h1>Title</h1>
+
+      <h2>Table of Contents</h2>
+
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+
+      <h2>Item 1</h2>
+          <p>This is the content for Item 1. It's not too interesting, but you can make it better!</p>
+      <h2>Item 2</h2>
+          <p>This is the content for Item 2. It's a little different than Item 1 because we don't want to be redundant.</p>
+      <h2>Item 3</h2>
+          <p>This is the content for Item 3. I hope you're more creative than me or your website will get boring.</p>
+      </div>
+    </body>
+  ```
 
 ## Conclusion
 
