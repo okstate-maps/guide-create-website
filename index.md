@@ -35,7 +35,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
   4. If you open the project with a live server, you will see a blank page. We will add some content to make it a bit more interesting.
 
 #### Adding Content
-1. Let's start off by adding a header to the page. To do this, make sure that you are working within the *body* tag. The tag for a header is h1. Within this tag, type what you want the header to be. 
+1. Let's start off by adding a header to the page. To do this, make sure that you are working within the *body* tag, which will contain all of the website's text. The tag for a header is *h1*. Within this tag, type what you want the header to be. 
   ```html
     <body>
             <h1>Title</h1>
@@ -45,7 +45,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
   
   ![Title](images/Title.PNG)
   
-  3. Next, let's add a table of contents. For this, we will use the *ul*, or *unordered list* tag. For each item within the list, add a *li* or *list item* tag.
+  3. Next, let's add a table of contents. For this, we will use the *ul*, or *unordered list*, tag. For each item within the list, add a *li* or *list item* tag.
   ```html
     <ul>
       <li>Item 1</li>
@@ -62,7 +62,28 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
   ```
   
   ![Table of Contents](images/Toc.PNG)
-
+  
+  5. Let's add some actual information to the page. To do this, let's start by adding the different sections we would like to include. For this example, I will keep using the *h2* tag, but you can change the heading size by using *h1* to *h6* to denote the degree of importance of each section. Name the sections according to the names you gave them in the *Table of Contents*.
+  ```html
+    <h2>Item 1</h2>
+    <h2>Item 2</h2>
+    <h2>Item 3</h2>
+  ```
+  
+  ![Items[(images/Item.PNG)
+  
+  6. To add text for each section use the *p*, or *paragraph*, tag. Add whatever text you please for each section.
+  ```html
+    <h2>Item 1</h2>
+       <p>This is the content for Item 1. It's not too interesting, but you can make it better!</p>
+    <h2>Item 2</h2>
+       <p>This is the content for Item 2. It's a little different than Item 1 because we don't want to be redundant.</p>
+    <h2>Item 3</h2>
+       <p>This is the content for Item 3. I hope you're more creative than me or your website will get boring.</p>
+  ```
+  
+  ![Item Content](images/ItemContent.PNG)
+  
 ## Conclusion
 
 ## Further Reading/Resources
