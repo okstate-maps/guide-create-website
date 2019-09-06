@@ -87,6 +87,28 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 ![Item Content](images/ItemContent.PNG)
   
 #### Using the Table of Contents to Navigate
+The table of contents can be used to navigate to different sections within your webpage. 
+1. The first step for navigation is to add a unique *ID* to each section title. 
+  ```html
+    <h2 id=first>Item 1</h2>
+      <p>This is the content for Item 1. It's not too interesting, but you can make it better!</p>
+    <h2 id=second>Item 2</h2>
+      <p>This is the content for Item 2. It's a little different than Item 1 because we don't want to be redundant.</p>
+    <h2 id=third>Item 3</h2>
+      <p>This is the content for Item 3. I hope you're more creative than me or your website will get boring.</p>
+  ```
+2. Next we will make it so that when a user clicks on an item it will take them to that section on the page. We will use an *a* tag along with *href* to do this. Within the *li* tags of each *Table of Contents* item, add the *a* tags. The *href=* will be set to the *ID*s we just created.
+  ```html
+    <ul>
+      <li><a href=#first>Item 1</a></li>
+      <li><a href=#second>Item 2</a></li>
+      <li><a href=#third>Item 3</a></li>
+    </ul>
+  ```
+3. Go in to the live view and try one out! They should appear as links. Note that if you do not have much content on your page, it may not seem like it's navigating. Try adding more content if this is the case.
+  
+![Links](images/Links.PNG)
+
 #### Adding Flare with CSS
 Now that we have the content for our website, we should make it more visually pleasing. To do so, we will be working within the *style* tag.
 1. Let's stylize the main header first. In the *style* tag, type *h1 {}*. Within the curly brackets is where we will add our style elements.
